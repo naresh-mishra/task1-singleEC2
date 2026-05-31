@@ -2,8 +2,8 @@
 
 yum update -y
 
-# Install Python
-yum install python3 -y
+# Install Python + pip
+yum install python3 python3-pip -y
 
 # Install Node.js
 curl -sL https://rpm.nodesource.com/setup_18.x | bash -
@@ -14,9 +14,9 @@ yum install git -y
 
 cd /home/ec2-user
 
-git clone YOUR_GITHUB_REPO_URL
+git clone https://github.com/naresh-mishra/task1-singleEC2
 
-cd task1-single-ec2/app/backend
+cd task1-singleEC2/app/backend
 
 pip3 install -r requirements.txt
 

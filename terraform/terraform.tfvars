@@ -1,1 +1,1 @@
-key_name = "your-keypair-name"
+key_name = "terraform-key"
